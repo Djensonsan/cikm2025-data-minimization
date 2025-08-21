@@ -1,0 +1,90 @@
+EASE:
+  l2:
+    - 50
+    - 100
+    - 200
+    - 400
+    - 600
+    - 800
+    - 1000
+    - 1200
+    - 1400
+    - 1600
+    - 1800
+    - 2000
+    - 2200
+    - 2400
+  alpha: [0]
+  density: [0.003]
+
+ItemKNN:
+  K:
+    - 10
+    - 50
+    - 100
+    - 200
+    - 300
+    - 400
+    - 500
+    - 600
+    - 700
+    - 800
+    - 900
+    - 1000
+  similarity: ["cosine", "conditional_probability"]
+  normalize_X: [true, false]
+  normalize_sim: [true, false]
+
+ItemPNN:
+  K:
+    - 10
+    - 50
+    - 100
+    - 200
+    - 300
+    - 400
+    - 500
+    - 600
+    - 700
+    - 800
+    - 900
+    - 1000
+  similarity: ["cosine", "conditional_probability"]
+  normalize_X: [true, false]
+  normalize_sim: [true, false]
+
+SVDItemToItem:
+  num_components:
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+    - 110
+    - 120
+    - 130
+    - 140
+    - 150
+
+NMFItemToItem:
+  num_components:
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+    - 110
+    - 120
+    - 130
+    - 140
+    - 150

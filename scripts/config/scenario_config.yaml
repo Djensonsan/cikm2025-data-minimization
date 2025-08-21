@@ -1,0 +1,85 @@
+StrongGeneralization:
+  Netflix:
+    num_users_test: 40000
+    num_users_val: 40000
+    validation: true
+  MSD:
+    num_users_test: 50000
+    num_users_val: 50000
+    validation: true
+  MovieLens:
+    num_users_test: 10000
+    num_users_val: 10000
+    validation: true
+  Dummy:
+    num_users_test: 10
+    num_users_val: 10
+    validation: true
+
+UniformStratifiedStrongGeneralization:
+  Netflix:
+    num_users_test: 4000
+    num_users_val: 40000
+    num_users_est: 1000
+    bin_width: 110
+    bin_range: (0, 550)
+    validation: true
+    estimation: true
+  MSD:
+    num_users_test: 5000
+    num_users_val: 50000
+    num_users_est: 1000
+    bin_width: 40
+    bin_range: (0, 200)
+    validation: true
+    estimation: true
+  MovieLens:
+    num_users_test: 1000
+    num_users_val: 10000
+    num_users_est: 1000
+    bin_width: 67.5
+    bin_range: (0, 337.5)
+    validation: true
+    estimation: true
+  Dummy:
+    num_users_test: 10
+    num_users_val: 10
+    num_users_est: 10
+    bin_width: 100
+    bin_range: (0, 100)
+    validation: true
+    estimation: true
+
+ProportionalStratifiedStrongGeneralization:
+  Netflix:
+    num_users_test: 40000
+    num_users_val: 40000
+    num_users_est: 1000
+    bin_width: 110
+    bin_range: [0, 550]
+    validation: true
+    estimation: true
+  MSD:
+    num_users_test: 50000
+    num_users_val: 50000
+    num_users_est: 1000
+    bin_width: 40
+    bin_range: [0, 200]
+    validation: true
+    estimation: true
+  MovieLens:
+    num_users_test: 10000
+    num_users_val: 10000
+    num_users_est: 1000
+    bin_width: 67.5
+    bin_range: [0, 337.5]
+    validation: true
+    estimation: true
+  Dummy:
+    num_users_test: 10
+    num_users_val: 10
+    num_users_est: 10
+    bin_width: 100
+    bin_range: [0, 100]
+    validation: true
+    estimation: true

@@ -1,0 +1,26 @@
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600

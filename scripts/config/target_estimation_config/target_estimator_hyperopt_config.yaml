@@ -1,0 +1,13 @@
+minimizer:
+  GreedyForwardMinimizer:
+    params:
+      metric:
+        name: NDCG
+        params:
+          K: 100
+      eta: 0.98
+      timeout: 345600
+estimator:
+  ExponentialDecayEstimator:
+    gamma: [-0.8, -0.6, -0.4, -0.2, 0.01, 0.2, 0.4, 0.6, 0.8]
+    K: [32, 48, 64, 96, 128, 192]

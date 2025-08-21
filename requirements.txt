@@ -1,0 +1,10 @@
+ray[default]==2.39.0
+recpack==0.3.6
+pytest==8.3.3
+
+# Note: Since minipack doesn't support GPU acceleration at the moment, we can use the CPU version of torch.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu; platform_machine == "x86_64" or platform_machine == "amd64"
+torch==2.5.1; platform_machine == "arm64" or platform_machine == "aarch64"
+jupyterlab==4.3.1
+seaborn==0.13.2

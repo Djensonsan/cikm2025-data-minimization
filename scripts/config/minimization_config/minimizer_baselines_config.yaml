@@ -1,0 +1,191 @@
+- name: GreedyForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: GreedyForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: GreedyForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+
+- name: GreedyBeamForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+    beam_depth: 5
+
+- name: GreedyBeamForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+    beam_depth: 5
+
+- name: GreedyBeamForwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+    beam_depth: 5
+
+- name: GreedyBackwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: GreedyBackwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: GreedyBackwardMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: RandomSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+
+- name: EmbeddingSimilaritySelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: EmbeddingSimilaritySelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: EmbeddingSimilaritySelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+
+- name: LeastPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: LeastPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: LeastPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600
+
+- name: MostPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.98
+    timeout: 345600
+
+- name: MostPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 0.99
+    timeout: 345600
+
+- name: MostPopularSelectionMinimizer
+  params:
+    metric:
+      name: NDCG
+      params:
+        K: 100
+    eta: 1.0
+    timeout: 345600

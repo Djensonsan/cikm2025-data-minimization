@@ -1,0 +1,8 @@
+### Baseline Minimizers
+from minipack.minimizers.baselines.embedding_similarity_selection import EmbeddingSimilaritySelectionMinimizer
+from minipack.minimizers.baselines.greedy_backward import GreedyBackwardMinimizer
+from minipack.minimizers.baselines.greedy_beam_forward import GreedyBeamForwardMinimizer
+from minipack.minimizers.baselines.greedy_forward import GreedyForwardMinimizer
+from minipack.minimizers.baselines.least_popular_selection import LeastPopularSelectionMinimizer
+from minipack.minimizers.baselines.most_popular_selection import MostPopularSelectionMinimizer
+from minipack.minimizers.baselines.random_selection import RandomSelectionMinimizer

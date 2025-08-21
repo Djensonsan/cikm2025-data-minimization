@@ -1,0 +1,27 @@
+ExponentialDecayEstimator:
+  EASE:
+    Netflix:
+      K: 128
+      gamma: -0.4
+    MSD:
+      K: 128
+      gamma: -0.2
+    MovieLens:
+      K: 128
+      gamma: 0.01
+    Dummy:
+      K: 192
+      gamma: 0.2
+  ItemKNN:
+    Netflix:
+      K: 128
+      gamma: 0.8
+    MSD:
+      K: 128
+      gamma: 0.6
+    MovieLens:
+      K: 128
+      gamma: -0.2
+    Dummy:
+      K: 192
+      gamma: 0.2
