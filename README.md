@@ -13,7 +13,7 @@ This repository contains the source code and experimental results necessary to r
 
 This repository contains the official code snapshot used for the experiments in our CIKM 2025 paper. It is a specific version of a larger, actively developed research framework named **MiniPack**.
 
-Its primary purpose is to ensure **transparency and reproducibility** of the results presented in the paper. As such, this repository is an **archival snapshot** and is **not intended for production use**. It is provided "as is" and will not be actively maintained or supported.
+Its primary purpose is to ensure **transparency and reproducibility** of the results presented in the paper. As such, this repository is an **archival snapshot**. It is provided "as is" and will not be actively maintained or supported.
 
 For inquiries about the latest version of MiniPack or to discuss potential collaborations, please contact us directly. Access to the main framework is granted at the discretion of our research group.
 
@@ -32,9 +32,6 @@ For inquiries about the latest version of MiniPack or to discuss potential colla
     * **Inference:** Currently, all operations are CPU-based; GPU acceleration is not supported.
     * **Low-level Optimizations:** Advanced optimizations (e.g., Cython, Numba) are not implemented; the framework primarily builds upon NumPy and SciPy.
 * **Dependencies:** The codebase has a tight coupling with [RecPack](https://gitlab.com/recpack-maintainers/recpack/-/tree/master) (an experimentation framework for Recommender Systems), leveraging its structures and utilities.
-
-### Execution Environment
-Our experiments were conducted on a High-Performance Computing (HPC) cluster with significant parallelization capabilities (leveraging Ray). Running the full suite of experiments, especially hyperparameter optimization and minimization for larger datasets, on a standard local machine might be computationally intensive and time-consuming.
 
 ---
 
