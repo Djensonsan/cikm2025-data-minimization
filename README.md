@@ -73,7 +73,7 @@ The repository is organized as follows:
     * `minipack/minimizers/`: Implementations of data minimization algorithms.
     * `minipack/pipelines/`: Core logic for the experimental pipelines.
     * `minipack/scenarios/`: Definitions for dataset splitting and evaluation scenarios.
-    * `minipack/target_estimation/`: Implementation details for ground truth estimation.
+    * `minipack/target_estimators/`: Implementation details for ground truth estimation.
     * `minipack/tests/`: Unit and integration tests.
 * `notebooks/`: Jupyter notebooks for data analysis and visualization of results.
 * `scripts/`: CLI scripts for executing the experimental pipelines.
